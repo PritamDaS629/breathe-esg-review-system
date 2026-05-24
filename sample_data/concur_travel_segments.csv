@@ -1,0 +1,6 @@
+Expense ID,Transaction Date,Category,Origin,Destination,Distance,Unit,Nights,Amount,Currency,Employee
+EXP-10001,2026-01-16,Flight,JFK,LHR,,mile,,1340,USD,A. Shah
+EXP-10002,2026-01-22,Hotel,,,,,4,980,USD,A. Shah
+EXP-10003,2026-02-05,Ground Transport,,,42,miles,,118,USD,J. Rao
+EXP-10004,2026-02-11,Flight,BLR,DEL,,km,,410,USD,P. Iyer
+EXP-10005,2026-02-13,Flight,SFO,XXX,,mile,,220,USD,M. Lee
