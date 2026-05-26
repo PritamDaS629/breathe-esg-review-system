@@ -20,6 +20,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://breathe-esg-review-system.vercel.app",
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
