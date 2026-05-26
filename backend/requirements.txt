@@ -1,4 +1,6 @@
-Django
-gunicorn
-django-cors-headers
-djangorestframework
+Django==5.2.6
+djangorestframework==3.16.1
+django-cors-headers==4.7.0
+gunicorn==23.0.0
+whitenoise==6.12.0
+dj-database-url==3.0.1
