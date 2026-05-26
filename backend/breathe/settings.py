@@ -8,7 +8,17 @@ PROJECT_DIR = BASE_DIR.parent
 
 SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
 DEBUG = os.environ.get("DEBUG", "True") == "True"
-ALLOWED_HOSTS = [h.strip() for h in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,testserver").split(",") if h.strip()]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "testserver",
+    "xaviz.pythonanywhere.com",
+    "breathe-esg-review-system.vercel.app",
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://breathe-esg-review-system.vercel.app",
+]
 
 INSTALLED_APPS = [
     "django.contrib.admin",

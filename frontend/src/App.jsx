@@ -2,7 +2,7 @@ import React from "react";
 import { AlertTriangle, Check, Database, FileUp, Filter, Lock, RefreshCw, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
-const API_BASE = "http://127.0.0.1:8000/api";
+const API_BASE = "https://xaviz.pythonanywhere.com/api";
 const sourceLabels = {
   sap: "SAP fuel/procurement",
   utility: "Utility electricity",
